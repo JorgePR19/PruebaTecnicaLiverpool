@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PruebaTecnicaLiverpool</string>
+
+    <string name="unknow_host_exepcion">unknow host exepcion</string>
+    <string name="unknow_error">unknow error</string>
+    <string name="sort">Ordenar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title">Prueba Técnica</string>
+    <string name="search">Buscar</string>
+    <string name="error_append">Algo salió mal al cargar más información. Vuelve a intentarlo más tarde.</string>
+    <string name="end_list">No hay más contenido para mostrar.</string>
+    <string name="empty_list">La lista esta vacia.</string>
+</resources>
