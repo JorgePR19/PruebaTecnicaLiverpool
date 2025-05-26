@@ -24,18 +24,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.pruebatecnicaliverpool.R
-import com.example.pruebatecnicaliverpool.domain.model.SortModel
 import com.example.pruebatecnicaliverpool.utils.Constants
+import com.example.pruebatecnicaliverpool.utils.Constants.listSortType
 
 @Composable
 fun DialogViewScreen(actionListener: (Constants.TypeSort) -> Unit) {
-    val listSortType = listOf<SortModel>(
-        SortModel(Constants.TypeSort.DEFAULT.s, Constants.TypeSort.DEFAULT),
-        SortModel(Constants.TypeSort.LOWEST_PRICE.s, Constants.TypeSort.LOWEST_PRICE),
-        SortModel(Constants.TypeSort.HIGHER_PRICE.s, Constants.TypeSort.HIGHER_PRICE),
-    )
-
-
     AlertDialog(
         onDismissRequest = { },
         title = {

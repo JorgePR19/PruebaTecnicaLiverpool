@@ -10,6 +10,6 @@ interface ApiContract {
     suspend fun getProducts(
         @Query("search-string") searchString: String,
         @Query("page-number") pageNumber: Int,
-        @Query("sortBy") sortBy: String? = null
+        @Query("sortBy") sortBy: String
     ): PlpResponse
 }

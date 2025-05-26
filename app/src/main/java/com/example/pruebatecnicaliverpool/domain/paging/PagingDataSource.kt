@@ -5,7 +5,6 @@ import androidx.paging.PagingState
 import com.example.pruebatecnicaliverpool.domain.model.ProductsDomain
 import com.example.pruebatecnicaliverpool.domain.repositories.ApiRepository
 import com.example.pruebatecnicaliverpool.utils.extensions.getMinSortPrice
-import com.example.pruebatecnicaliverpool.utils.NetworkStatusObserver
 
 class PagingDataSource(
     val apiRepository: ApiRepository,
